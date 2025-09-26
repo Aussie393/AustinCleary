@@ -7,25 +7,49 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!-- Header & Navigation -->
   <header>
-    <h1>Hi, I’m Austin</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Austin Cleary</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- Main Content -->
   <main>
-    <section>
+    <section class="intro">
       <h2>Welcome</h2>
-      <p>I’m a Mechanical Engineering and Mathematics student passionate about aerospace, data analysis, and design.</p>
+      <p>
+        I’m a Mechanical Engineering and Mathematics student passionate about aerospace, 
+        data analysis, and design. This portfolio showcases some of the engineering projects 
+        I’ve worked on, from UAV design to data-driven analysis tools.
+      </p>
+    </section>
+
+    <section class="featured-projects">
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <img src="assets/images/uav.png" alt="UAV project screenshot">
+        <h3>Small Tactical UAV</h3>
+        <p>Designed and tested a UAV inspired by the Aerosonde MK1, with focus on aerodynamic modeling and control systems.</p>
+        <a class="btn" href="projects.html">View Projects →</a>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Austin Cleary | <a href="https://github.com/your-username">GitHub</a></p>
+    <p>© 2025 Austin Cleary | 
+      <a href="https://github.com/your-username" target="_blank">GitHub</a> | 
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+    </p>
   </footer>
 </body>
 </html>
