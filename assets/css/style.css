@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background: #003366;
+  background: #4A90E2;
   color: white;
   padding: 1rem 0;
 }
@@ -52,7 +52,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #ffd700; /* gold highlight */
+  color: #FF8C42; /* orange highlight */
 }
 
 /* Intro section */
@@ -115,7 +115,7 @@ footer {
 }
 
 footer a {
-  color: #003366;
+  color: #4A90E2;
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ footer a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #003366 0%, #0055aa 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #7BB3F0 100%);
   color: white;
   padding: 4rem 0;
   text-align: center;
@@ -168,7 +168,7 @@ footer a:hover {
 .about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #003366;
+  color: #4A90E2;
 }
 
 .about-content p {
@@ -221,7 +221,7 @@ footer a:hover {
 }
 
 .project-category {
-  background: #003366;
+  background: #4A90E2;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -236,7 +236,7 @@ footer a:hover {
 .project-content h3 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: #003366;
+  color: #4A90E2;
 }
 
 .project-content p {
@@ -252,8 +252,8 @@ footer a:hover {
 }
 
 .tech-tag {
-  background: #e3f2fd;
-  color: #003366;
+  background: #E8F4FD;
+  color: #4A90E2;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.85rem;
@@ -275,7 +275,7 @@ footer a:hover {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #003366;
+  color: #4A90E2;
 }
 
 .skills-grid {
@@ -293,7 +293,7 @@ footer a:hover {
 }
 
 .skill-category h3 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
@@ -314,7 +314,7 @@ footer a:hover {
 
 /* Page Headers */
 .page-header {
-  background: linear-gradient(135deg, #003366 0%, #0055aa 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #7BB3F0 100%);
   color: white;
   padding: 3rem 0;
   text-align: center;
@@ -354,10 +354,10 @@ footer a:hover {
 }
 
 .resume-section h2 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
-  border-bottom: 3px solid #003366;
+  border-bottom: 3px solid #4A90E2;
   padding-bottom: 0.5rem;
 }
 
@@ -371,7 +371,7 @@ footer a:hover {
 }
 
 .education-item h3, .experience-item h3 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 0.5rem;
 }
 
@@ -390,7 +390,7 @@ footer a:hover {
 }
 
 .project-summary h3 {
-  color: #003366;
+  color: #4A90E2;
   margin: 1.5rem 0 0.5rem 0;
 }
 
@@ -404,7 +404,7 @@ footer a:hover {
 }
 
 .contact-info a {
-  color: #003366;
+  color: #4A90E2;
   text-decoration: none;
 }
 
@@ -425,7 +425,7 @@ footer a:hover {
 }
 
 .contact-info-section h2, .contact-form-section h2 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 2rem;
   font-size: 1.8rem;
 }
@@ -454,7 +454,7 @@ footer a:hover {
 }
 
 .contact-text h3 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 0.25rem;
 }
 
@@ -464,7 +464,7 @@ footer a:hover {
 }
 
 .contact-text a {
-  color: #003366;
+  color: #4A90E2;
   text-decoration: none;
 }
 
@@ -487,7 +487,7 @@ footer a:hover {
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #003366;
+  color: #4A90E2;
   font-weight: 600;
 }
 
@@ -504,7 +504,7 @@ footer a:hover {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #003366;
+  border-color: #4A90E2;
 }
 
 .form-group textarea {
@@ -527,7 +527,7 @@ footer a:hover {
 }
 
 .info-card h3 {
-  color: #003366;
+  color: #4A90E2;
   margin-bottom: 1rem;
 }
 
@@ -578,41 +578,41 @@ footer a:hover {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #003366;
+  color: #4A90E2;
 }
 
 /* Button Styles */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #003366;
+  background: #4A90E2;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid #003366;
+  border: 2px solid #4A90E2;
 }
 
 .btn:hover {
-  background: #0055aa;
-  border-color: #0055aa;
+  background: #FF8C42;
+  border-color: #FF8C42;
   transform: translateY(-2px);
 }
 
 .btn-primary {
-  background: #003366;
-  border-color: #003366;
+  background: #4A90E2;
+  border-color: #4A90E2;
 }
 
 .btn-outline {
   background: transparent;
-  color: #003366;
-  border-color: #003366;
+  color: #4A90E2;
+  border-color: #4A90E2;
 }
 
 .btn-outline:hover {
-  background: #003366;
+  background: #4A90E2;
   color: white;
 }
 
@@ -629,12 +629,12 @@ footer a:hover {
 
 .btn-outline:hover {
   background: white;
-  color: #003366;
+  color: #4A90E2;
 }
 
 /* Active Navigation */
 .nav-links a.active {
-  color: #ffd700;
+  color: #FF8C42;
   font-weight: bold;
 }
 
