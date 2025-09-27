@@ -583,6 +583,8 @@ footer a:hover {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  opacity: 1;
+  visibility: visible;
 }
 
 .skills-section {
@@ -644,7 +646,7 @@ footer a:hover {
 .btn-outline {
   background: transparent;
   color: white;
-  border-color: white;
+  border-color: #F59E0B;
 }
 
 .btn-outline:hover {
