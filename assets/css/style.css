@@ -22,9 +22,10 @@ body {
 
 /* Header */
 header {
-  background: #4A90E2;
+  background: #1E3A8A;
   color: white;
   padding: 1rem 0;
+  border-bottom: 3px solid #F59E0B;
 }
 
 header .logo {
@@ -52,7 +53,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #FF8C42; /* orange highlight */
+  color: #F59E0B; /* amber highlight */
 }
 
 /* Intro section */
@@ -115,7 +116,7 @@ footer {
 }
 
 footer a {
-  color: #4A90E2;
+  color: #1E3A8A;
   text-decoration: none;
 }
 
@@ -125,10 +126,11 @@ footer a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #4A90E2 0%, #7BB3F0 100%);
+  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
   color: white;
   padding: 4rem 0;
   text-align: center;
+  border-bottom: 3px solid #F59E0B;
 }
 
 .hero-content h1 {
@@ -168,7 +170,9 @@ footer a:hover {
 .about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #4A90E2;
+  color: #1E3A8A;
+  border-bottom: 3px solid #F59E0B;
+  padding-bottom: 0.5rem;
 }
 
 .about-content p {
@@ -221,12 +225,13 @@ footer a:hover {
 }
 
 .project-category {
-  background: #4A90E2;
+  background: #1E3A8A;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 600;
+  border: 2px solid #F59E0B;
 }
 
 .project-content {
@@ -236,7 +241,7 @@ footer a:hover {
 .project-content h3 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: #4A90E2;
+  color: #1E3A8A;
 }
 
 .project-content p {
@@ -252,12 +257,13 @@ footer a:hover {
 }
 
 .tech-tag {
-  background: #E8F4FD;
-  color: #4A90E2;
+  background: #FEF3C7;
+  color: #1E3A8A;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.85rem;
   font-weight: 500;
+  border: 1px solid #F59E0B;
 }
 
 .projects-cta {
@@ -275,7 +281,9 @@ footer a:hover {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #4A90E2;
+  color: #1E3A8A;
+  border-bottom: 3px solid #F59E0B;
+  padding-bottom: 0.5rem;
 }
 
 .skills-grid {
@@ -293,9 +301,11 @@ footer a:hover {
 }
 
 .skill-category h3 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  border-bottom: 2px solid #F59E0B;
+  padding-bottom: 0.3rem;
 }
 
 .skill-category ul {
@@ -314,10 +324,11 @@ footer a:hover {
 
 /* Page Headers */
 .page-header {
-  background: linear-gradient(135deg, #4A90E2 0%, #7BB3F0 100%);
+  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
   color: white;
   padding: 3rem 0;
   text-align: center;
+  border-bottom: 3px solid #F59E0B;
 }
 
 .page-header h1 {
@@ -354,10 +365,10 @@ footer a:hover {
 }
 
 .resume-section h2 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
-  border-bottom: 3px solid #4A90E2;
+  border-bottom: 3px solid #F59E0B;
   padding-bottom: 0.5rem;
 }
 
@@ -371,7 +382,7 @@ footer a:hover {
 }
 
 .education-item h3, .experience-item h3 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 0.5rem;
 }
 
@@ -390,7 +401,7 @@ footer a:hover {
 }
 
 .project-summary h3 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin: 1.5rem 0 0.5rem 0;
 }
 
@@ -404,7 +415,7 @@ footer a:hover {
 }
 
 .contact-info a {
-  color: #4A90E2;
+  color: #1E3A8A;
   text-decoration: none;
 }
 
@@ -425,9 +436,11 @@ footer a:hover {
 }
 
 .contact-info-section h2, .contact-form-section h2 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 2rem;
   font-size: 1.8rem;
+  border-bottom: 3px solid #F59E0B;
+  padding-bottom: 0.5rem;
 }
 
 .contact-details {
@@ -454,7 +467,7 @@ footer a:hover {
 }
 
 .contact-text h3 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 0.25rem;
 }
 
@@ -464,7 +477,7 @@ footer a:hover {
 }
 
 .contact-text a {
-  color: #4A90E2;
+  color: #1E3A8A;
   text-decoration: none;
 }
 
@@ -487,7 +500,7 @@ footer a:hover {
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #4A90E2;
+  color: #1E3A8A;
   font-weight: 600;
 }
 
@@ -504,7 +517,8 @@ footer a:hover {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4A90E2;
+  border-color: #F59E0B;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.1);
 }
 
 .form-group textarea {
@@ -527,8 +541,10 @@ footer a:hover {
 }
 
 .info-card h3 {
-  color: #4A90E2;
+  color: #1E3A8A;
   margin-bottom: 1rem;
+  border-bottom: 2px solid #F59E0B;
+  padding-bottom: 0.3rem;
 }
 
 .info-card p {
@@ -578,42 +594,46 @@ footer a:hover {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #4A90E2;
+  color: #1E3A8A;
+  border-bottom: 3px solid #F59E0B;
+  padding-bottom: 0.5rem;
 }
 
 /* Button Styles */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #4A90E2;
+  background: #1E3A8A;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid #4A90E2;
+  border: 2px solid #F59E0B;
 }
 
 .btn:hover {
-  background: #FF8C42;
-  border-color: #FF8C42;
+  background: #DC2626;
+  border-color: #DC2626;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
 }
 
 .btn-primary {
-  background: #4A90E2;
-  border-color: #4A90E2;
+  background: #1E3A8A;
+  border-color: #F59E0B;
 }
 
 .btn-outline {
   background: transparent;
-  color: #4A90E2;
-  border-color: #4A90E2;
+  color: #1E3A8A;
+  border-color: #F59E0B;
 }
 
 .btn-outline:hover {
-  background: #4A90E2;
-  color: white;
+  background: #F59E0B;
+  color: #1E3A8A;
+  font-weight: bold;
 }
 
 .btn-large {
@@ -628,14 +648,16 @@ footer a:hover {
 }
 
 .btn-outline:hover {
-  background: white;
-  color: #4A90E2;
+  background: #F59E0B;
+  color: #1E3A8A;
+  font-weight: bold;
 }
 
 /* Active Navigation */
 .nav-links a.active {
-  color: #FF8C42;
+  color: #F59E0B;
   font-weight: bold;
+  border-bottom: 2px solid #F59E0B;
 }
 
 /* Responsive Design */
